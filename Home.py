@@ -4,7 +4,7 @@ import pandas as pd
 
 st.title('Welcome to Closest Open Pub Finder Page')
 
-df = pd.read_csv(r'C:\Users\mozammil\final_data.csv')
+df = pd.read_csv('final_data.csv')
 
 
 st.subheader("Basic Information about the Data.")
