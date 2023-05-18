@@ -4,7 +4,7 @@ from streamlit_folium import folium_static
 import pandas as pd
 
 #### 2.Pub Locations
-df = pd.read_csv(r'C:\Users\mozammil\final_data.csv')
+df = pd.read_csv('final_data.csv')
 st.sidebar.title("Pub_Locations")
 
 st.title('Find Pubs by Postal Code or Local Authority')
