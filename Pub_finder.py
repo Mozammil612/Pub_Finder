@@ -4,7 +4,7 @@ from streamlit_folium import folium_static
 import pandas as pd
 
 
-df = pd.read_csv(r'C:\Users\mozammil\final_data.csv')
+df = pd.read_csv('final_data.csv')
 
 st.sidebar.title("Find the nearest Pub")
 
